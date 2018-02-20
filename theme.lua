@@ -39,7 +39,7 @@ theme.border_marked = "#91231c"
 -- }}}
 
 --- Layout -- {{{
-
+theme.useless_gap = 2
 -- }}}
 
 --- Titlebar -- {{{
@@ -126,6 +126,11 @@ theme.titlebar_height                           = 14
 -- theme.layout_tiletop = "/usr/share/awesome/themes/default/layouts/tiletopw.png"
 -- theme.layout_spiral  = "/usr/share/awesome/themes/default/layouts/spiralw.png"
 -- theme.layout_dwindle = "/usr/share/awesome/themes/default/layouts/dwindlew.png"
+
+--- Connection Icons -- {{{
+theme.connman_icon_dir = theme.icon_dir .. "/conn"
+theme.connman_ethernet = theme.connman_icon_dir .. "/ethernet.png"
+-- }}}
 
 theme.awesome_icon = "/usr/share/awesome/icons/awesome16.png"
 
