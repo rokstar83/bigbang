@@ -3,10 +3,6 @@
 --------------------
 
 --- Requires and Globals -- {{{
-local color   = require('gears.color')
-local surface = require('gears.surface')
-local wibox_w = require('wibox.widget')
-
 local theme = {}
 -- }}}
 
@@ -111,8 +107,7 @@ theme.titlebar_height                           = 14
 -- -- }}}
 
 -- -- You can use your own command to set your wallpaper
--- theme.wallpaper_cmd = { "nitrogen --restore" }
-
+theme.wallpaper_cmd = { "nitrogen", "--restore" }
 -- -- You can use your own layout icons like this:
 -- theme.layout_fairh = "/usr/share/awesome/themes/default/layouts/fairhw.png"
 -- theme.layout_fairv = "/usr/share/awesome/themes/default/layouts/fairvw.png"
