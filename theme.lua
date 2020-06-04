@@ -128,6 +128,9 @@ theme.connman_icon_dir = theme.icon_dir .. "/conn"
 theme.connman_ethernet = theme.connman_icon_dir .. "/ethernet.png"
 -- }}}
 
+theme.radialprogressbar_color = "#25ecff"
+theme.radialprogressbar_border_color = "#09359e"
+
 theme.awesome_icon = "/usr/share/awesome/icons/awesome16.png"
 
 return theme
