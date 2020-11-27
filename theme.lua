@@ -17,13 +17,13 @@ theme.widget_icon_dir = theme.icon_dir .. "/widgets"
 -- }}}
 
 --- Fonts & Colors -- {{{
-theme.font = "Sauce Code Pro Nerd Font Complete Mono 8"
+theme.font = "Sauce Code Pro Nerd Font Mono 8"
 theme.bg_normal     = "#000000"
 theme.bg_focus      = "#000000"
 theme.bg_urgent     = "#CE8F34"
 theme.bg_minimize   = "#6699cc"
 
-theme.fg_normal     = "#E0E0E0"
+theme.fg_normal     = "#a68a99"
 theme.fg_focus      = "#ffffff"
 theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#ffffff"
